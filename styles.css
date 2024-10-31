@@ -1,0 +1,85 @@
+
+ p, h1, h2,h4,h6, .nav-link, .footer, .gallery-img {
+  color: white !important;
+}
+body {
+  background-image: url('logo2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.navbar {
+  background-color: #2e7d32; 
+}
+
+.navbar-brand {
+  color: #f0f4c3; 
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #f0f4c3; 
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #a5d6a7; 
+}
+
+
+#about img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+
+#features h2 {
+  margin-bottom: 20px;
+}
+
+.feature {
+  border: 1px solid #8dc63f;
+  color: #090a04;
+  background-color: #e9f5d1;
+}
+
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-form {
+  max-width: 600px;
+}
+
+.contact-form button {
+  background-color: #8dc63f;
+  border: none;
+}
+
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer p,
+.footer a {
+  font-size: 14px;
+  color: #d4e2b0;
+}
+
+.footer a:hover {
+  color: #fff;
+}
